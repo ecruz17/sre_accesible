@@ -28,7 +28,7 @@
         });
         jQuery(function ($) { initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips(event, container) { container = container || document; $(container).find(".hasTooltip").tooltip({ "html": true, "container": "body" }); } });
     </script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Secretaría de Relaciones Exteriores</title>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -73,7 +73,8 @@
                         <li><a href="http://www.gob.mx/gobierno">Gobierno</a></li>
                         <li><a href="http://www.gob.mx/participa">Participa</a></li>
                         <li><a href="http://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i
-                                    class="icon-search"></i></a></li>
+                                    class="fa fa-search" aria-hidden="true"></i>
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -128,9 +129,11 @@
                         <div id="main" class="main-box">
 
                             <ol class="breadcrumb">
-                                <li><a href="http://www.gob.mx/" aria-label="Página principal"><i
-                                            class="icon icon-home"></i></a></li>
-                                <li><a href="http://www.gob.mx/sre" aria-label="SRE" style="color: #595959;">SRE</a>
+                                <li><a href="http://www.gob.mx/" aria-label="Página principal">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                    </a></li>
+                                <li>
+                                    <a href="http://www.gob.mx/sre" aria-label="SRE" style="color: #595959;">SRE</a>
                                 </li>
                                 <li class="active"><span>Colima</span></li>
                             </ol>
@@ -139,24 +142,28 @@
                                 <meta itemprop="inLanguage" content="es-ES" />
                                 <div itemprop="articleBody">
                                     <table border="0" cellspacing="0" cellpadding="5" align="center">
+                                        <caption style="color: #595959;">
+                                            <strong>OFICINAS DE PASAPORTES EN COLIMA</strong>
+                                        </caption>
                                         <tbody>
                                             <tr>
                                                 <td colspan="3" align="left" valign="top">
-                                                    <p><strong class="titulos">OFICINA DE PASAPORTES EN COLIMA</strong>
-                                                    </p>
+
                                                     <p>
 
                                                         <!-- Tabs and Sliders Plugin start -->
                                                     <table class="table" style="border: 1px solid #BBBBBB;">
+                                                        <caption style="color: #595959;">
+                                                            OFICINA CENTRAL
+                                                        </caption>
                                                         <thead>
                                                             <tr>
 
                                                                 <th colspan="5">DATOS DE CONTACTO</th>
-                                                                <th colspan="5" rowspan="2">MÁS INFORMACIÓN</th>
+                                                                <th colspan="5">MÁS INFORMACIÓN</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-
                                                             <tr>
                                                                 <td colspan="1">
                                                                     <p class="direccion"><img
@@ -187,293 +194,134 @@
                                                                     <strong>TELÉFONOS: </strong>(312) 312 99 45
                                                                 </td>
                                                             </tr>
+
+
+                                                            <td colspan="1">
+                                                                <p class="direccion"><img
+                                                                        src="/directorio/images/stories/imgdirectorio/correo.png"
+                                                                        alt="Ícono correo" border="0"></p>
+                                                                <p class="direccion">
+                                                            </td>
+                                                            <td colspan="4">
+                                                                <strong>CORREO: </strong>opcolima@sre.gob.mx
+                                                            </td>
+
+                                                            <td colspan="4">
+                                                                <strong> </strong>Estimado usuario, con el fin de
+                                                                proporcionarle un mejor servicio, se informa que esta
+                                                                Delegación ofrece el esquema de
+                                                                atención para el trámite de pasaporte mediante citas,
+                                                                misma que podrá obtener desde: <strong> <u> <a
+                                                                            alt="Link para citas por internet"
+                                                                            href="https://citas.sre.gob.mx">Citas
+                                                                            por
+                                                                            Internet</a> </u> </strong>
+                                                                <p>Para citas por teléfono al 55 893 24827, en horarios:
+                                                                    de lunes a domingo de 8:00 a 20:00 horas. </p>
+
+                                                            </td>
+
                                                             <tr>
                                                                 <td colspan="1">
                                                                     <p class="direccion"><img
-                                                                            src="/directorio/images/stories/imgdirectorio/correo.png"
-                                                                            alt="Ícono correo" border="0"></p>
+                                                                            src="/directorio/images/stories/imgdirectorio/home.png"
+                                                                            alt="Ícono de casa" width="15" height="15"
+                                                                            align="right" border="0" />
+                                                                    </p>
                                                                     <p class="direccion">
                                                                 </td>
                                                                 <td colspan="4">
-                                                                    <strong>CORREO: </strong>opcolima@sre.gob.mx
+                                                                    <strong>HORARIO DE ATENCIÓN:</strong> LUNES A
+                                                                    DOMINGO DE 8:00 A 20:00 HORAS.(TIEMPO DE LA ZONA
+                                                                    CENTRO)
                                                                 </td>
                                                             </tr>
-                                                            <tr>
-                                                                <td colspan="1">
-                                                                    <p class="direccion"><img
-                                                                            src="/directorio/images/stories/imgdirectorio/correo.png"
-                                                                            alt="Ícono correo" border="0"></p>
-                                                                    <p class="direccion">
-                                                                </td>
-                                                                <td colspan="4">
-                                                                    <strong>HORARIO DE ATENCIÓN: </strong>LUNES A DOMINGO DE 8:00 A 20:00 HORAS.(TIEMPO DE LA ZONA CENTRO)
-                                                                </td>
-                                                            </tr>
+
                                                         </tbody>
                                                     </table>
-                                                    <div class="jwts_tabber" id="jwts_tab1">
-                                                        <div class="jwts_tabbertab" title="Oficina Central">
-                                                            <h2 class="jwts_heading"><a href="#"
-                                                                    title="Oficina Central">Oficina Central</a></h2>
-                                                            </p>
-                                                            <table style="width: 600px;" border="0" cellspacing="0"
-                                                                cellpadding="1" align="center">
-                                                                <tbody>
 
-                                                                    <tr>
+                                                    <table class="table" style="border: 1px solid #BBBBBB;">
+                                                        <caption style="color: #595959;">
+                                                            OFICINA DE ENLACE COLIMA, COL.
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th colspan="5">DATOS DE CONTACTO</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td colspan="1">
+                                                                    <p class="direccion"><img
+                                                                            src="/directorio/images/stories/imgdirectorio/home.png"
+                                                                            alt="Ícono de casa" width="15" height="15"
+                                                                            align="right" border="0" />
+                                                                    </p>
+                                                                    <p class="direccion">
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    <strong>DIRECCIÓN:</strong> TERCER ANILLO PERIFÉRICO
+                                                                    #301
+                                                                    PLAZA ZENTRALIA. LOCAL 270 ALTOS COLONIA VALLE
+                                                                    DORADO
+                                                                    CP: 28000
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="1">
+                                                                    <p class="direccion"><img
+                                                                            src="/directorio/images/stories/imgdirectorio/telefono.png"
+                                                                            alt="Ícono teléfono" border="0"></p>
+                                                                    <p class="direccion">
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    <strong>TELÉFONOS: </strong>(312) 312 05 11
+                                                                </td>
+                                                            </tr>
 
-                                                                        <td align="right" valign="top" width="15"
-                                                                            height="98">
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/home.png"
-                                                                                    alt="Ícono de página principal"
-                                                                                    width="15" height="15" align="right"
-                                                                                    border="0" /></p>
-                                                                            <p class="direccion">
-                                                                                <br /><br /><br /><br /><br />
-                                                                            </p>
-                                                                            <p class="direccion"> </p>
-                                                                            <p class="direccion"> </p>
-                                                                            <p class="direccion"> </p>
-                                                                            <p class="direccion"> </p>
-                                                                        </td>
 
-                                                                        <td valign="top" width="331">
-                                                                            <p class="direccion">CENTRO COMERCIAL
-                                                                                SENDERA AV. MIGUEL DE LA MADRID HURTADO
-                                                                                NO. 271, COLONIA REAL HACIENDA, VILLA DE
-                                                                                ÁLVAREZ C.P. 28978, COLIMA, COLIMA
-                                                                                LOCALES SA-PA-03, SA-PA-04, PA-21,
-                                                                                PA-22, PA-23 Y PA-24</p>
-                                                                            <p class="direccion">TELÉFONOS:
-                                                                                <strong>(312) 312 99 45 <br /></strong>
-                                                                            </p>
-                                                                            <p class="direccion">CORREO:
-                                                                                <strong>opcolima</strong>
-                                                                            </p>
-                                                                            <p class="direccion">HORARIO DE ATENCIÓN:
-                                                                                LUNES A DOMINGO DE 8:00 A 20:00
-                                                                                HORAS.(TIEMPO DE LA ZONA CENTRO)</p>
-                                                                        </td>
-                                                                        <td class="rojo" rowspan="2" valign="top"
-                                                                            width="324">A los correos electrónicos se
-                                                                            les debe agregar: @sre.gob.mx<br /><br />*
-                                                                            No cuenta con el servicio<br />+ Pendiente
-                                                                            por definir<br />** Plazas
-                                                                            Eventuales<br /><br />Estimado usuario, con
-                                                                            el fin de proporcionarle un mejor servicio,
-                                                                            se informa que esta Delegación ofrece el
-                                                                            esquema de atención para el trámite de
-                                                                            pasaporte mediante citas, misma que podrá
-                                                                            obtener:<br /><br />
-                                                                            <strong><u><a
-                                                                                        href="https://citas.sre.gob.mx">https://citas.sre.gob.mx</a></u></strong><br /><br />●
-                                                                            Por teléfono al 55 893 24827, en horarios:
-                                                                            de lunes a domingo de 8:00 a 20:00 horas.
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                            <p> </p>
-                                                        </div>
-                                                        <div class="jwts_tabbertab"
-                                                            title="Oficina de Enlace Colima, Col.">
-                                                            <h2 class="jwts_heading"><a href="#"
-                                                                    title="Oficina de Enlace Colima, Col.">Oficina de
-                                                                    Enlace Colima, Col.</a></h2>
-                                                            <table style="width: 600px;" border="0" cellspacing="0"
-                                                                cellpadding="1" align="center">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td align="right" valign="top" width="15"
-                                                                            height="98">
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/home.png"
-                                                                                    alt="Ícono de página principal"
-                                                                                    width="15" height="15" align="right"
-                                                                                    border="0" /></p>
-                                                                            <p class="direccion"><br /><br /><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/telefono.png"
-                                                                                    alt="correo" border="0" /></p>
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/fax.png"
-                                                                                    alt="correo" border="0" /></p>
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/correo.png"
-                                                                                    alt="correo" border="0" /></p>
-                                                                        </td>
-                                                                        <td valign="top">
-                                                                            <p class="direccion">TERCER ANILLO
-                                                                                PERIFÉRICO #301 <br /> PLAZA ZENTRALIA.
-                                                                                LOCAL 270 ALTOS,<br /> COLONIA VALLE
-                                                                                DORADO <br /> CP: 28000 <br />
-                                                                                COLIMA,COLIMA.</p>
-                                                                            <p class="direccion">TELÉFONO: <strong>(312)
-                                                                                    312 05 11</strong></p>
-                                                                            <p class="direccion">FAX:
-                                                                                <strong>(*)</strong>
-                                                                            </p>
-                                                                            <p class="direccion">CORREO: <span
-                                                                                    id="cloakaf90f8778055e4d5b60bc4ca75e9bfbd">Esta
-                                                                                    dirección de correo electrónico está
-                                                                                    siendo protegida contra los robots
-                                                                                    de spam. Necesita tener JavaScript
-                                                                                    habilitado para poder verlo.</span>
-                                                                                <script type='text/javascript'>
-                                                                                    document.getElementById('cloakaf90f8778055e4d5b60bc4ca75e9bfbd').innerHTML = '';
-                                                                                    var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
-                                                                                    var path = 'hr' + 'ef' + '=';
-                                                                                    var addyaf90f8778055e4d5b60bc4ca75e9bfbd = 'c&#97;rl&#111;s.&#111;ld&#101;nb&#111;&#117;rg' + '&#64;';
-                                                                                    addyaf90f8778055e4d5b60bc4ca75e9bfbd = addyaf90f8778055e4d5b60bc4ca75e9bfbd + 'c&#111;l&#105;m&#97;' + '&#46;' + 'g&#111;b' + '&#46;' + 'mx';
-                                                                                    var addy_textaf90f8778055e4d5b60bc4ca75e9bfbd = 'c&#97;rl&#111;s.&#111;ld&#101;nb&#111;&#117;rg' + '&#64;' + 'c&#111;l&#105;m&#97;' + '&#46;' + 'g&#111;b' + '&#46;' + 'mx'; document.getElementById('cloakaf90f8778055e4d5b60bc4ca75e9bfbd').innerHTML += '<a ' + path + '\'' + prefix + ':' + addyaf90f8778055e4d5b60bc4ca75e9bfbd + '\'>' + addy_textaf90f8778055e4d5b60bc4ca75e9bfbd + '<\/a>';
-                                                                                </script>
-                                                                            </p>
-                                                                            <p class="direccion">HORARIO DE ATENCIÓN: DE
-                                                                                LUNES A VIERNES DE 8:00 A 15:00 HORAS.
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                            <p> </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Tabs and Sliders Plugin end -->
+                                                            <td colspan="1">
+                                                                <p class="direccion"><img
+                                                                        src="/directorio/images/stories/imgdirectorio/correo.png"
+                                                                        alt="Ícono correo" border="0"></p>
+                                                                <p class="direccion">
+                                                            </td>
+                                                            <td colspan="4">
+                                                                <strong>CORREO: </strong>carlos.oldenbourg@colima.gob.mx
+                                                            </td>
 
-                                                    <div class="jwts_tabberlive" id="jwts_tab1">
-                                                        <div class="jwts_tabbertab   " title="">
 
-                                                            <table style="width: 600px;" border="0" cellspacing="0"
-                                                                cellpadding="1" align="center">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td align="right" valign="top" width="15"
-                                                                            height="98">
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/home.png"
-                                                                                    alt="home" width="15" height="15"
-                                                                                    align="right" border="0"></p>
-                                                                            <p class="direccion"><br><br><br><br><br>
-                                                                            </p>
-                                                                            <p class="direccion">&nbsp;</p>
-                                                                            <p class="direccion">&nbsp;</p>
-                                                                            <p class="direccion">&nbsp;</p>
-                                                                            <p class="direccion">&nbsp;</p>
-                                                                        </td>
-                                                                        <td valign="top" width="331">
-                                                                            <p class="direccion">CENTRO COMERCIAL
-                                                                                SENDERA AV. MIGUEL DE LA MADRID HURTADO
-                                                                                NO. 271, COLONIA
-                                                                                REAL HACIENDA, VILLA DE ÁLVAREZ C.P.
-                                                                                28978, COLIMA, COLIMA LOCALES SA-PA-03,
-                                                                                SA-PA-04,
-                                                                                PA-21, PA-22, PA-23 Y PA-24</p>
-                                                                            <p class="direccion">TELÉFONOS:
-                                                                                <strong>(312) 312 99 45 <br></strong>
-                                                                            </p>
-                                                                            <p class="direccion">CORREO:
-                                                                                <strong>opcolima</strong>
-                                                                            </p>
-                                                                            <p class="direccion">HORARIO DE ATENCIÓN:
-                                                                                LUNES A DOMINGO DE 8:00 A 20:00
-                                                                                HORAS.(TIEMPO DE LA
-                                                                                ZONA CENTRO)</p>
-                                                                        </td>
-                                                                        <td class="rojo" rowspan="2" valign="top"
-                                                                            width="324">A los correos electrónicos se
-                                                                            les debe
-                                                                            agregar: @sre.gob.mx<br><br>* No cuenta con
-                                                                            el servicio<br>+ Pendiente por definir<br>**
-                                                                            Plazas
-                                                                            Eventuales<br><br>Estimado usuario, con el
-                                                                            fin de proporcionarle un mejor servicio, se
-                                                                            informa
-                                                                            que esta Delegación ofrece el esquema de
-                                                                            atención para el trámite de pasaporte
-                                                                            mediante citas,
-                                                                            misma que podrá obtener:<br><br>●&nbsp;Por
-                                                                            internet en&nbsp; &nbsp;
-                                                                            &nbsp;&nbsp;<strong><u><a
-                                                                                        alt="Link para citas por internet"
-                                                                                        href="https://citas.sre.gob.mx">Citas
-                                                                                        por
-                                                                                        Internet</a></u></strong><br><br>●
-                                                                            Por teléfono al 55 893 24827, en horarios:
-                                                                            de lunes a domingo de 8:00 a 20:00 horas.
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                            <p>&nbsp;</p>
-                                                        </div>
-                                                        <div class="jwts_tabbertab   " title="">
 
-                                                            <table style="width: 600px;" border="0" cellspacing="0"
-                                                                cellpadding="1" align="center">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td align="right" valign="top" width="15"
-                                                                            height="98">
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/home.png"
-                                                                                    alt="home" width="15" height="15"
-                                                                                    align="right" border="0"></p>
-                                                                            <p class="direccion"><br><br><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/telefono.png"
-                                                                                    alt="correo" border="0"></p>
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/fax.png"
-                                                                                    alt="correo" border="0"></p>
-                                                                            <p class="direccion"><img
-                                                                                    src="/directorio/images/stories/imgdirectorio/correo.png"
-                                                                                    alt="correo" border="0"></p>
-                                                                        </td>
-                                                                        <td valign="top">
-                                                                            <p class="direccion">TERCER ANILLO
-                                                                                PERIFÉRICO #301 <br> PLAZA
-                                                                                ZENTRALIA.&nbsp;LOCAL 270
-                                                                                ALTOS,<br> COLONIA VALLE DORADO <br> CP:
-                                                                                28000 <br> COLIMA,COLIMA.</p>
-                                                                            <p class="direccion">TELÉFONO: <strong>(312)
-                                                                                    312 05 11</strong></p>
-                                                                            <p class="direccion">FAX:
-                                                                                <strong>(*)</strong>
-                                                                            </p>
-                                                                            <p class="direccion">CORREO: <span
-                                                                                    id="cloak022cc018af4d56ca3ddd3f572a15b1db"><a
-                                                                                        style="color: black;"
-                                                                                        href="mailto:carlos.oldenbourg@colima.gob.mx"
-                                                                                        aria-label="Email Carlos Oldenburg">carlos.oldenbourg@colima.gob.mx</a></span>
-                                                                                <script type="text/javascript">
-                                                                                    document.getElementById('cloak022cc018af4d56ca3ddd3f572a15b1db').innerHTML = '';
-                                                                                    var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
-                                                                                    var path = 'hr' + 'ef' + '=';
-                                                                                    var addy022cc018af4d56ca3ddd3f572a15b1db = 'c&#97;rl&#111;s.&#111;ld&#101;nb&#111;&#117;rg' + '&#64;';
-                                                                                    addy022cc018af4d56ca3ddd3f572a15b1db = addy022cc018af4d56ca3ddd3f572a15b1db + 'c&#111;l&#105;m&#97;' + '&#46;' + 'g&#111;b' + '&#46;' + 'mx';
-                                                                                    var addy_text022cc018af4d56ca3ddd3f572a15b1db = 'c&#97;rl&#111;s.&#111;ld&#101;nb&#111;&#117;rg' + '&#64;' + 'c&#111;l&#105;m&#97;' + '&#46;' + 'g&#111;b' + '&#46;' + 'mx'; document.getElementById('cloak022cc018af4d56ca3ddd3f572a15b1db').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy022cc018af4d56ca3ddd3f572a15b1db + '\'>' + addy_text022cc018af4d56ca3ddd3f572a15b1db + '<\/a>';
-                                                                                </script>
-                                                                            </p>
-                                                                            <p class="direccion">HORARIO DE ATENCIÓN: DE
-                                                                                LUNES A VIERNES DE 8:00 A 15:00 HORAS.
-                                                                            </p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                            <p>&nbsp;</p>
-                                                        </div>
-                                                    </div>
+                                                            <tr>
+                                                                <td colspan="1">
+                                                                    <p class="direccion"><img
+                                                                            src="/directorio/images/stories/imgdirectorio/home.png"
+                                                                            alt="Ícono de casa" width="15" height="15"
+                                                                            align="right" border="0" />
+                                                                    </p>
+                                                                    <p class="direccion">
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    <strong>HORARIO DE ATENCIÓN:</strong> DE LUNES A
+                                                                    VIERNES DE 8:00 A 15:00 HORAS.
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
 
                                                     <table style="width: 600px; height: 86px;" border="1" frame="hsides"
                                                         rules="none" cellspacing="0" cellpadding="3" align="center"
                                                         bgcolor="#ffffff">
+                                                        <caption style="color: #595959;">CONTACTO CON DIRECTIVOS
+                                                        </caption>
                                                         <tbody>
                                                             <thead class="encabezadoblanco">
-                                                                <td bgcolor="#999999" width="465">Nombre / Función</td>
-                                                                <td align="center" bgcolor="#999999" width="37">Nivel
-                                                                </td>
-                                                                <td align="left" bgcolor="#999999" width="116">Contacto
-                                                                </td>
+                                                                <th bgcolor="#999999" width="465">Nombre / Función</th>
+                                                                <th align="center" bgcolor="#999999" width="37">Nivel
+                                                                </th>
+                                                                <th align="left" bgcolor="#999999" width="116">Contacto
+                                                                </th>
                                                             </thead>
                                                             <tr>
                                                                 <td class="nombres"><span
@@ -519,7 +367,7 @@
                                     <dt class="article-info-term">
                                         Detalles </dt>
                                     <dd class="modified">
-                                        <span class="icon-calendar" aria-hidden="true"></span>
+                                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                                         <time datetime="2022-11-15T11:11:40-06:00" itemprop="dateModified">
                                             Última actualización: 15 Noviembre 2022 </time>
                                     </dd>
@@ -602,7 +450,8 @@
                                 <input type="text" class="form-control" id="email" name="email"
                                     placeholder="Ingresa tu correo electrónico">
                                 <button id="subscribe" type="button" class="blue-right btn"
-                                    aria-label="subscribe-button"><i class="icon-caret-right"></i></button>
+                                    aria-label="subscribe-button"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
                             </div>
                             <div class="message-subscribe hidden"></div>
                         </form>
